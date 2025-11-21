@@ -24,7 +24,7 @@ HTML_TEMPLATE = """
     <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl w-full max-w-lg text-center">
         
         <h1 class="text-4xl font-extrabold text-indigo-700 mb-4 tracking-tight">
-            Hello from Flaskk! 
+            Hello from Flask!
         </h1>
         
         <p class="text-xl text-gray-600 mb-8">
@@ -60,5 +60,5 @@ def home():
 
 
 if __name__ == '__main__':
-    print("Flask app running at http://127.0.0.1:5000/")
-    app.run(debug=True)
+    print("Flask app running at http://0.0.0.0:5000/")
+    app.run(host='0.0.0.0', debug=True)
