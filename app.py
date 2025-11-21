@@ -24,7 +24,7 @@ HTML_TEMPLATE = """
     <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl w-full max-w-lg text-center">
         
         <h1 class="text-4xl font-extrabold text-indigo-700 mb-4 tracking-tight">
-            Hello from Flask!
+            Hello from Flaskk! 
         </h1>
         
         <p class="text-xl text-gray-600 mb-8">
