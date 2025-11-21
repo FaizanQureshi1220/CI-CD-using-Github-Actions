@@ -16,7 +16,6 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
 
       - name: Run simple test (lint)
         run: python -c "import flask; print('flask', flask.__version__)"
